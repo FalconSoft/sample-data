@@ -1,0 +1,3 @@
+from datapipe-js import utils
+
+utils().parseDate('10-10-10')

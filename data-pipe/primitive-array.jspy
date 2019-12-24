@@ -1,0 +1,18 @@
+from datapipe-js import dataPipe
+
+arr = [1,2,3,4]
+
+avg = dataPipe(arr).avg()
+print(avg == 2.5, "Avg", "dataPipe avg test")
+
+sum = dataPipe(arr).sum()
+print(sum == 10, "Sum")
+
+count = dataPipe(arr).count()
+print(count == 4, "Count")
+
+min = dataPipe(arr).min()
+print(min == 1, "Min")
+
+max = dataPipe(arr).max()
+print(max == 4, "Max")

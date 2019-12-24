@@ -1,0 +1,19 @@
+[{
+  "group": "Array",
+  "list": [{
+    "name": "Primitive array",
+    "code": "primitive-array.jspy"
+  }, {
+    "name": "Array of objects",
+    "code": "objects-array.jspy"
+  }, {
+    "name": "Group By",
+    "code": "groupby.jspy"
+  }]
+}, {
+  "group": "Data utils",
+  "list": [{
+    "name": "Parse Date",
+    "code": "parse-date.jspy"
+  }]
+}]

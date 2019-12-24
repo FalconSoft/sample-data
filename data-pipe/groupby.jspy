@@ -1,0 +1,24 @@
+from datapipe-js import dataPipe
+
+data = [
+  { name: "John",  country: "US"},
+  { name: "Joe", country: "US"},
+  { name: "Bill",  country: "US"},
+  { name: "Adam", country: "UK"},
+  { name: "Scott", country: "UK"},
+  { name: "Diana",country: "UK"},
+  { name: "Marry",country: "FR"},
+  { name: "Luc",country: "FR"}
+]
+
+dataPipe(data)
+  .groupBy(i => i.country)
+  .map(g =>
+    r = {}
+    r.country = dataPipe(g).first().country
+    r.names = dataPipe(g).map(r => r.name).join(", ")
+    r.count = dataPipe(g).count()
+    r
+  )
+  .filter(r => r.country != "US")
+  .toArray()

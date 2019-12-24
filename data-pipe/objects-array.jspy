@@ -1,0 +1,22 @@
+from datapipe-js import dataPipe
+
+objArr = [
+  {value:1},
+  {value:2},
+  {value:3}
+]
+
+avg = dataPipe(objArr).avg(r => r.value)
+print(avg == 2, "Avg obj")
+
+sum = dataPipe(objArr).sum(r => r.value)
+print(sum == 6, "Sum obj")
+
+count = dataPipe(objArr).count(r => r.value)
+print(count == 3, "Count obj")
+
+min = dataPipe(objArr).min(r => r.value)
+print(min == 1, "Min obj")
+
+max = dataPipe(objArr).max(r => r.value)
+print(max == 3, "Max obj")
