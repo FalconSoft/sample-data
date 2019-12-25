@@ -1,0 +1,15 @@
+def add(a, b):
+  return a + b
+"""
+It is optional to specify 'return'
+If no return specified, then it will return last statement
+"""
+def minus(a, b):
+  a - b
+
+# returns object what has two values
+{
+  name: "Examples",
+  add: add(2, 3),
+  substract: minus(10, 5)
+}

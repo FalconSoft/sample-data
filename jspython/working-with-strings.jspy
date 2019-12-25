@@ -1,0 +1,8 @@
+text = """
+  You can call any
+  JavaScript function
+  even with " or '
+"""
+s = text + "Test "
+s2 = s.replace("call", "invoke") + " 2 " + dateTime()
+s2.trim()

@@ -1,0 +1,9 @@
+"""
+returns a number of dates from new year
+"""
+today = dateTime() # now
+firstDate = dateTime(today.getFullYear() + "-01-01") # a first date of the current year
+diffTime = today - firstDate
+
+# number of days from the begining of year
+Math.ceil(diffTime / 86400000)

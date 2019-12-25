@@ -1,0 +1,18 @@
+nums = range(20)
+
+"""
+Here is example of multi line and single line arrow functions
+"""
+y = nums
+  .map((r, i) =>
+    newItem = {
+        element: r,
+        index: i,
+        square: Math.pow(i, 2),
+        cube: Math.pow(i, 3)
+    }
+    return newItem
+  )
+  .filter(r => r.cube > 5)
+
+return y

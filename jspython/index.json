@@ -1,0 +1,46 @@
+[{
+  "group": "Basic",
+  "list": [{
+    "name": "Working with Objects",
+    "code": "working-with-objects.jspy"
+  }, {
+    "name": "Working with Arrays",
+    "code": "working-with-arrays.jspy"
+  }, {
+    "name": "Working with Math",
+    "code": "working-with-math.jspy"
+  }, {
+    "name": "Working with strings",
+    "code": "working-with-strings.jspy"
+  }, {
+    "name": "Working with dates",
+    "code": "working-with-dates.jspy"
+  }]
+}, {
+  "group": "Example group 2",
+  "list": [{
+    "name": "Null Conditioning",
+    "code": "null-conditioning.jspy"
+  }, {
+    "name": "while loop",
+    "code": "while-loop.jspy"
+  }, {
+    "name": "for loop",
+    "code": "for-loop.jspy"
+  }, {
+    "name": "Functions",
+    "code": "functions.jspy"
+  }, {
+    "name": "Arrow functions",
+    "code": "arrow-functions.jspy"
+  }, {
+    "name": "Recursive function",
+    "code": "recursive-function.jspy"
+  }, {
+    "name": "",
+    "code": ""
+  }, {
+    "name": "",
+    "code": ""
+  }]
+}]
