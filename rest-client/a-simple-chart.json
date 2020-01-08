@@ -1,0 +1,9 @@
+{
+    "scripts": "https://raw.githubusercontent.com/falconsoft/sample-data/master/rest-client/a-simple-chart.jspy",
+    "isPublic": true,
+    "id": 1,
+    "linkType": "MultiRequest",
+    "folder": "Charts",
+    "ownerName": "script",
+    "name": "a-simple-chart"
+}

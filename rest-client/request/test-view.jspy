@@ -1,2 +1,0 @@
-result.auth = wsUtils.runRequest("Test1.Authentication", False, False)
-result.viewRequest = wsUtils.runRequest("test1.ViewRequest")
