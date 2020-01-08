@@ -1,5 +1,5 @@
 {
-    "scripts": "./a-simple-chart.jspy",
+    "scripts": "https://raw.githubusercontent.com/falconsoft/sample-data/master/rest-client/script/a-simple-chart.jspy",
     "isPublic": true,
     "id": 1,
     "linkType": "MultiRequest",
