@@ -1,0 +1,7 @@
+session.region = "oceania"
+# @param owner.requestName
+# @param ignorePreRequestScripts default true
+# @param ignorePostRequestScripts = true
+# @param isExample = false
+result = wsUtils.runRequest("request.simple-request", False, False, True)
+showInObjectExplorer(result.body, "simple-request")

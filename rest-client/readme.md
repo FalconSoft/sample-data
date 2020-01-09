@@ -14,8 +14,8 @@ Items are defined in `index.json`.
     "folder": "Grids",
     "ownerName": "grid",
     "name": "grid-example",
-    "link": "https://raw.githubusercontent.com/jspython-dev/jspython-examples/master/requests/grid/grid-example.json"
+    "source": "github-examples"
 }
 ```
-JSON file for described example should be located at `./grid/grid-example.json` (`[ownerName]/[name]`).
+JSON file for described example should be located at `rest-client/grid/grid-example.json` (`[ownerName]/[name]`).
 

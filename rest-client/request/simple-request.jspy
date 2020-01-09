@@ -1,0 +1,13 @@
+def preRequest():
+  session.region = "oceania"
+  print(session)
+
+def successResponse(response):
+  print("successResponse")
+  createChartTab("Oceania Population")
+    .y("population", r => r.chartType = "Bar")
+    .x("name")
+    .plot(response.body)
+
+def errorResponse(error):
+  print(error)

@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://restcountries.eu/rest/v2/region/{{region}}",
+    "headers": [],
+    "queryParameters": [],
+    "auth": {
+      "type": "None"
+    }
+  },
+  "scripts": "rest-client/request/simple-request.jspy",
+  "uiSettings": {
+    "isRequestPanelCollapsed": true,
+    "direction": "horizontal"
+  },
+  "isPublic": true,
+  "id": 6,
+  "linkType": "RestRequest",
+  "folder": "Requests",
+  "ownerName": "request",
+  "name": "simple-request",
+  "description": "View test request"
+}

@@ -38,5 +38,21 @@
     "ownerName": "data-editor",
     "name": "object-data",
     "source": "github-examples"
+  },
+  {
+    "id": 6,
+    "linkType": "RestRequest",
+    "folder": "Requests",
+    "ownerName": "request",
+    "name": "simple-request",
+    "source": "github-examples"
+  },
+  {
+    "id": 7,
+    "linkType": "MultiRequest",
+    "folder": "Requests",
+    "ownerName": "script",
+    "name": "run-request",
+    "source": "github-examples"
   }
 ]

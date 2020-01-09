@@ -1,0 +1,13 @@
+{
+  "scripts": "rest-client/script/run-request.jspy",
+  "isPublic": true,
+  "id": 7,
+  "linkType": "MultiRequest",
+  "folder": "Requests",
+  "ownerName": "script",
+  "name": "run-request",
+  "uiSettings": {
+    "isRequestPanelCollapsed": false,
+    "sizes": [200, "*"]
+  }
+}
