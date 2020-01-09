@@ -1,0 +1,9 @@
+{
+  "scripts": "rest-client/script/a-simple-grid.jspy",
+  "isPublic": true,
+  "id": 3,
+  "linkType": "MultiRequest",
+  "folder": "Grids",
+  "ownerName": "script",
+  "name": "a-simple-grid"
+}

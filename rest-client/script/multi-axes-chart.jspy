@@ -1,0 +1,35 @@
+def getData():
+  countries = "US,Canada,Mexico,Germany,UK,France,Italy,Japan,Korea,China".split(",")
+  data = []
+  for country in countries:
+    item = {}
+    item.country = country
+    item.sales = Math.random() * 10000 + 1000
+    item.expenses = Math.random() * 5000 + 1000
+    item.downloads = Math.round(Math.random() * 100000)
+    data.push(item)
+  return data
+
+data = getData()
+
+createChartTab("Multiple Axes")
+  .y("downloads",
+      r =>
+      r.chartType = "LineSymbols"
+      r.secondaryAxis = true
+    )
+  .y("sales", r => r.chartType = "Column")
+  .y("expenses", r => r.chartType = "Column")
+  .ySecondaryAxis(
+    r =>
+    r.min = 0
+    r.format = "n0,"
+    r.title = "Downloads (k)"
+  )
+  .yAxis(
+    r =>
+    r.title = "Sales/Expenses (US$ k)"
+    r.format = "n0,"
+  )
+  .x("country")
+  .plot(data)

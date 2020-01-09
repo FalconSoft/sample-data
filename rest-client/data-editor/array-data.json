@@ -1,0 +1,71 @@
+{
+  "request": [
+    {
+      "country": "US",
+      "sales": 7874.25603610246,
+      "expenses": 4332.664458521702,
+      "downloads": 18391
+    },
+    {
+      "country": "Canada",
+      "sales": 4166.1568056896795,
+      "expenses": 1647.2083163171883,
+      "downloads": 480
+    },
+    {
+      "country": "Mexico",
+      "sales": 5199.201219719182,
+      "expenses": 5664.2449603915375,
+      "downloads": 93193
+    },
+    {
+      "country": "Germany",
+      "sales": 10723.222221791746,
+      "expenses": 5273.398995182508,
+      "downloads": 29849
+    },
+    {
+      "country": "UK",
+      "sales": 7593.706898441842,
+      "expenses": 1662.2503821325877,
+      "downloads": 85692
+    },
+    {
+      "country": "France",
+      "sales": 2155.99382262243,
+      "expenses": 3111.611167983133,
+      "downloads": 47960
+    },
+    {
+      "country": "Italy",
+      "sales": 3214.2913120770236,
+      "expenses": 4213.37634448933,
+      "downloads": 39384
+    },
+    {
+      "country": "Japan",
+      "sales": 7772.013218313959,
+      "expenses": 3642.5607846224375,
+      "downloads": 63625
+    },
+    {
+      "country": "Korea",
+      "sales": 2007.781309914224,
+      "expenses": 4938.6138006160145,
+      "downloads": 51447
+    },
+    {
+      "country": "China",
+      "sales": 7580.337148202393,
+      "expenses": 2486.3380227418465,
+      "downloads": 40045
+    }
+  ],
+  "isPublic": true,
+  "id": 5,
+  "linkType": "JsonValue",
+  "folder": "DataEditor",
+  "ownerName": "data-editor",
+  "name": "array-data",
+  "description": "Countries data"
+}

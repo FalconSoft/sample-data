@@ -5,6 +5,38 @@
     "folder": "Charts",
     "ownerName": "script",
     "name": "a-simple-chart",
-    "link": "https://raw.githubusercontent.com/falconsoft/sample-data/master/rest-client/script/a-simple-chart.json"
+    "source": "github-examples"
+  },
+  {
+    "id": 2,
+    "linkType": "MultiRequest",
+    "folder": "Charts",
+    "ownerName": "script",
+    "name": "multi-axes-chart",
+    "source": "github-examples"
+  },
+  {
+    "id": 3,
+    "linkType": "MultiRequest",
+    "folder": "Grids",
+    "ownerName": "script",
+    "name": "a-simple-grid",
+    "source": "github-examples"
+  },
+  {
+    "id": 4,
+    "linkType": "JsonValue",
+    "folder": "DataEditor",
+    "ownerName": "data-editor",
+    "name": "array-data",
+    "source": "github-examples"
+  },
+  {
+    "id": 5,
+    "linkType": "JsonValue",
+    "folder": "DataEditor",
+    "ownerName": "data-editor",
+    "name": "object-data",
+    "source": "github-examples"
   }
 ]

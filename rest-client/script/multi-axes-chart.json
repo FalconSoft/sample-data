@@ -1,0 +1,10 @@
+{
+    "scripts": "https://raw.githubusercontent.com/falconsoft/sample-data/master/rest-client/script/multi-axes-chart.jspy",
+    "isPublic": true,
+    "id": 2,
+    "linkType": "MultiRequest",
+    "folder": "Charts",
+    "ownerName": "script",
+    "name": "multi-axes-chart"
+}
+

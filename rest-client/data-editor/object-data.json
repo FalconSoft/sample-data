@@ -1,0 +1,14 @@
+{
+  "request": {
+    "country": "UK",
+    "sales": 7593.706898441842,
+    "expenses": 1662.2503821325877,
+    "downloads": 85692
+  },
+  "isPublic": true,
+  "id": 4,
+  "linkType": "JsonValue",
+  "folder": "DataEditor",
+  "ownerName": "data-editor",
+  "name": "object-data"
+}
