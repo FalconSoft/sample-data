@@ -11,7 +11,8 @@
   "scripts": "rest-client/request/simple-request.jspy",
   "uiSettings": {
     "isRequestPanelCollapsed": true,
-    "direction": "horizontal"
+    "direction": "horizontal",
+    "runOnload": true
   },
   "isPublic": true,
   "id": 6,
