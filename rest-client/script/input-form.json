@@ -1,0 +1,12 @@
+{
+  "scripts": "rest-client/script/input-form.jspy",
+  "isPublic": true,
+  "id": 9,
+  "linkType": "MultiRequest",
+  "folder": "Input",
+  "ownerName": "script",
+  "name": "input-form",
+  "uiSettings": {
+    "runOnload": true
+  }
+}

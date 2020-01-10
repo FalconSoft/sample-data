@@ -1,6 +1,10 @@
-def preRequest():
-  session.region = "oceania"
-  print(session)
+async def preRequest():
+  res = input("region", r =>
+    if r.region.length < 3:
+      return "Region name should be more than 2 characters"
+    )
+  if res:
+    session.region = res.region
 
 def successResponse(response):
   print("successResponse")

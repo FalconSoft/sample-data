@@ -10,8 +10,8 @@
   },
   "scripts": "rest-client/request/simple-request.jspy",
   "uiSettings": {
-    "isRequestPanelCollapsed": true,
-    "direction": "horizontal",
+    "isRequestPanelCollapsed": false,
+    "direction": "vertical",
     "runOnload": true
   },
   "isPublic": true,

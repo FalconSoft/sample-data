@@ -54,5 +54,13 @@
     "ownerName": "script",
     "name": "run-request",
     "source": "github-examples"
+  },
+  {
+    "id": 9,
+    "linkType": "MultiRequest",
+    "folder": "Input",
+    "ownerName": "script",
+    "name": "input-form",
+    "source": "github-examples"
   }
 ]

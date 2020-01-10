@@ -1,0 +1,36 @@
+form = ["name", {
+  type: "number",
+  name: "age"
+}, {
+  type: "textarea",
+  name: "description",
+  description: "Give a brief description in your programming experience."
+}, {
+  type: "text",
+  name: "position",
+  defaultValue: "Developer"
+}, {
+  type: "email",
+  name: "email"
+}, {
+  type: "select",
+  name: "country",
+  options: ["United Kingdom", "United States", "Ukraine"]
+}, {
+  type: "checkbox",
+  name: "subscribe",
+  label: "Receive news"
+}]
+settings = {
+  title: "General user information form",
+  acceptLabel: "Send",
+  rejectVisible: False
+}
+res = inputDialog(form, r =>
+  if r.data.age < 12:
+    r.errors.age = "User should be at least 12 years old"
+
+  if r.data.name == null or r.data.name.length == 0:
+    r.errors.name = "Name must be provided"
+, settings)
+showInObjectExplorer(res, "Form")
