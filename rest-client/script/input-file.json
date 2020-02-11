@@ -1,0 +1,9 @@
+{
+  "scripts": "rest-client/script/input-file.jspy",
+  "isPublic": true,
+  "id": 8,
+  "linkType": "MultiRequest",
+  "folder": "Input",
+  "ownerName": "script",
+  "name": "input-file"
+}

@@ -1,0 +1,22 @@
+import papaparse as Papa
+from datapipe-js import dataPipe
+
+form = [{
+  type: "file",
+  name: "zipFiles",
+  label: "ZIP Files"
+}]
+settings = {
+  title: "Zip upload",
+  acceptLabel: "Upload",
+  rejectVisible: False
+}
+res = inputDialog(form, null, settings)
+print(res)
+
+dataPipe(res?.zipFiles).map(
+  r =>
+    content = Papa.parse(r.content)
+    showInObjectExplorer(content, r.fileName)
+    r
+  )
